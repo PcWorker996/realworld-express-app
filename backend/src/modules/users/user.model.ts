@@ -1,6 +1,3 @@
-import type { Article } from "../articles/article.model.js";
-import type { Comment } from "../articles/comment.model.js";
-
 export interface User {
   id: number;
   username: string;
@@ -8,9 +5,34 @@ export interface User {
   passwordHash: string;
   bio?: string | null;
   image?: string | null;
-  articles: Article[];
-  following: User[];
-  followers: User[];
-  favorites: Article[];
-  comments: Comment[];
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface UserAuth {
+  id: number;
+  email: string;
+  username: string;
+  token: string;
+  bio?: string | null;
+  image?: string | null;
+}
+
+export interface CreateUserInput {
+  email: string;
+  password: string;
+  username: string;
+}
+
+export interface LoginUserInput {
+  email: string;
+  password: string;
+}
+
+export interface UpdateUserInput {
+  email?: string;
+  bio?: string | null;
+  image?: string | null;
+  password?: string;
+  username?: string;
 }

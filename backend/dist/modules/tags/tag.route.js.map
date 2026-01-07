@@ -1,0 +1,1 @@
+{"version":3,"file":"tag.route.js","sourceRoot":"","sources":["../../../src/modules/tags/tag.route.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,SAAS,CAAC;AAEjC,MAAM,MAAM,GAAG,MAAM,EAAE,CAAC;AAExB,MAAM,CAAC,GAAG,CAAC,OAAO,EAAE,CAAC,IAAI,EAAE,GAAG,EAAE,EAAE;IAChC,GAAG,CAAC,IAAI,CAAC,EAAE,OAAO,EAAE,yBAAyB,EAAE,CAAC,CAAC;AACnD,CAAC,CAAC,CAAC;AAEH,eAAe,MAAM,CAAC"}
